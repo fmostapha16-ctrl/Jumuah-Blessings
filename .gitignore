@@ -1,0 +1,26 @@
+# Built files
+*.apk
+*.ap_
+*.aab
+
+# Build directories
+build/
+app/build/
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# Android Studio
+*.iml
+.idea/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore — NEVER commit this
+*.jks
+*.keystore
